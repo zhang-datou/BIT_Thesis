@@ -5,6 +5,6 @@
 
 run_thesis.bat用于解决pdflatex编译时产生的中文目录乱码问题。
 其中的代码如下：
-`gbk2uni Thesis.out`
-`pdflatex Thesis.tex`
+`gbk2uni Thesis.out`  
+`pdflatex Thesis.tex`  
 用的时候只需将Thesis换成你的文件名即可。

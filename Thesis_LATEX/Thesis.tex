@@ -1,0 +1,52 @@
+% \documentclass[twoside,12pt,CJK]{cctbook}
+\documentclass[12pt,a4paper,fancyhdr,hyperref,fntef]{ctexbook}
+\input setup.tex
+
+%  e\overrightarrow{}
+%\allowdisplaybreaks
+
+\begin{document}
+
+\frontmatter
+
+%
+\input chapter/chap-cover
+\input chapter/chap-name
+\input chapter/chap-shengming
+
+\pagestyle{plain} 
+\def\thepage{\xiaowuzi\roman{page}}
+\input chapter/chap-abstract
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                目录
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \setcounter{chapter}{0}
+{
+\titleformat{\chapter}[hang]{\vspace{-1.8cm}\chapterfmt}{\chaptername}{1em}{}[\vspace{-1cm}] %更改目录标题行间距
+\baselineskip=20pt
+\tableofcontents
+}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                正文
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+
+ \setcounter{page}{1}
+ \setcounter{chapter}{0}
+ \def\thepage{\xiaowuzi\arabic{page}}
+\include {chapter/chapter1}
+\include {chapter/chapter2}
+\include {chapter/chapter3}
+\include {chapter/chapter4}
+\include {chapter/chapter5}
+\include {chapter/chap-bibs}
+\include {chapter/chap-pubs}
+\include {chapter/chap-ack}
+
+
+\end{document}

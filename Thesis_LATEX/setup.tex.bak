@@ -1,0 +1,230 @@
+%%[mhb] 05/02/10: v0.1 for BIT PhD thesis
+
+\makeatletter
+
+
+%%参考文献GBT7714-2005NLang相关宏包
+\usepackage[numbers,square,sort]{natbib} %数字，方括号，上标，排序与压缩
+\usepackage{hypernat}
+%%调入一些宏包
+\usepackage{amssymb, amsmath,color}
+\usepackage{fancyhdr}
+\usepackage{fancyref}
+\usepackage{mathrsfs}
+\usepackage{subfigure}
+\usepackage{listings,color}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+%%页面大小设置
+\usepackage[top=3.5cm,bottom=2.5cm,left=2.7cm,right=2.7cm,headheight=2.5cm,footskip=1.8cm]{geometry}
+
+%%页眉页脚
+\pagestyle{plain}
+\fancypagestyle{plain}{%
+  \fancyhf{} % 清空当前设置
+  \renewcommand{\headrulewidth}{0.5pt} % 页眉与正文之间的水平线粗细
+  \renewcommand{\footrulewidth}{0pt}
+  \lhead{}
+  \chead{\zihao{5}\songti 北京理工大学硕士学位论文}
+  \rhead{}
+  \lfoot{}
+  \cfoot{\thepage}
+  \rfoot{}
+}
+
+
+%%调入图表相关宏包
+\usepackage{graphicx}
+\usepackage{threeparttable}
+\usepackage{dcolumn}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{listings}
+
+%===设置插图路径！强烈建议把插图放在子目录里面！[mhb] 02/08/10
+\graphicspath{{fig/}{./}}
+
+%%设置图形与标题的上下距离
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{0pt}
+
+
+%%设置图表标题格式
+\usepackage[center]{caption}
+\DeclareCaptionLabelSeparator{space}{~~}
+\captionsetup{labelsep=space,labelfont={bf,small},textfont={small}}
+
+
+%%定理环境设置
+\newtheorem{theorem}{\hspace{\parindent}定理}[chapter]
+\newtheorem{corollary}{\hspace{\parindent}推论}[chapter]
+\newtheorem{property}{\hspace{\parindent}性质}[chapter]
+\newtheorem{lemma}{\hspace{\parindent}引理}[chapter]
+\newtheorem{example}{\hspace{\parindent}例}[chapter]
+\newtheorem{assumption}{\hspace{\parindent}假设}[chapter]
+\newtheorem{problem}{\hspace{\parindent}问题}[chapter]
+\newtheorem{definition}{\hspace{\parindent}定义}[chapter]
+\newtheorem{remark}{\hspace{\parindent}注}[chapter]
+\newtheorem{notation}{\hspace{\parindent}符号}[chapter]
+% \newtheorem{proof}{}[chapter]
+\newenvironment{proof}{\hspace{\parindent}\textbf{证明:}}{\hfill$\Box$}
+
+\newcommand{\bn}{\begin{eqnarray}}
+\newcommand{\ed}{\end{eqnarray}}
+\newcommand{\bnn}{\begin{eqnarray*}}
+\newcommand{\edd}{\end{eqnarray*}}
+\newcommand{\by}{\begin{array}}
+\newcommand{\ey}{\end{array}}
+\newcommand{\nr}{\nonumber}
+\newcommand{\lt}{\left}
+\newcommand{\rt}{\right}
+\newcommand{\de}{\stackrel{\triangle}{=}}
+\def\lab{\label}
+\def\hi{H_\infty}
+
+\newcommand\old[1]{}
+
+%%自定义列表环境
+\newcommand{\namelistlabel}[1]{\mbox{#1}\hfill}
+\newenvironment{namelist}[1]%
+   {\begin{list}{}
+   {
+   \let\makelabel\namelistlabel
+   \settowidth{\labelwidth}{#1}
+   \setlength{\leftmargin}{1.1\labelwidth}
+   \setlength{\topsep}{0mm}
+   \setlength{\itemsep}{0mm}
+   \setlength{\parsep}{1mm}
+   }
+   }{\end{list}}
+
+%%实现上标加括号的引用方式
+\usepackage{hypernat}
+\let\oldcite\cite
+\renewcommand{\cite}[1]{\textsuperscript{\textsuperscript{\oldcite{#1}}}}
+\let\citeayt\cite
+
+%%重定义字号命令
+\usepackage{calc}
+\newlength{\tmpfontsizelength}
+\newcommand{\selfontsize}[2][1]{%
+\setlength{\tmpfontsizelength}{#2*\real{#1}}%
+\fontsize{#2}{\tmpfontsizelength}%
+\selectfont%
+}
+\newcommand{\chuhaozi}{\selfontsize{42pt}}    % 初号, 1.5倍行距
+\newcommand{\xiaochuzi}{\selfontsize{36pt}}    % 小初, 1.5倍行距
+\newcommand{\yihaozi}{\selfontsize{26pt}}    % 一号, 1.4倍行距
+\newcommand{\erhaozi}{\selfontsize{22pt}}    % 二号, 1.25倍行距
+\newcommand{\xiaoerzi}{\selfontsize{18pt}}    % 小二, 单倍行距
+\newcommand{\sanhaozi}{\selfontsize{16pt}}    % 三号, 1.5倍行距
+\newcommand{\xiaosanzi}{\selfontsize{15pt}}    % 小三, 1.5倍行距
+\newcommand{\sihaozi}{\selfontsize{14pt}}    % 四号, 1.5倍行距
+\newcommand{\banxiaosizi}{\selfontsize{13pt}}    % 半小四, 1.5倍行距
+\newcommand{\xiaosizi}{\selfontsize{12pt}}    % 小四, 1.5倍行距
+\newcommand{\dawuzi}{\selfontsize{11pt}}    % 大五号, 单倍行距
+\newcommand{\wuhaozi}{\selfontsize{10.5pt}}    % 五号, 单倍行距
+\newcommand{\xiaowuzi}{\selfontsize{9pt}}    % 五号, 单倍行距
+\newcommand{\liuhaozi}{\selfontsize{7.875pt}}    % 六号, 单倍行距
+\newcommand{\qihaozi}{\selfontsize{5.25pt}}    % 七号, 单倍行距
+
+%%脚注
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+%%保存原章节命令
+\let\oldchapter=\chapter
+\let\oldsection=\section
+\let\oldsubsection=\subsection
+\let\oldsubsubsection=\subsubsection
+
+
+\iffalse
+%%设置章节编号类型
+\def\thechapter{\arabic{chapter}}
+\def\thesection{\thechapter.\arabic{section}}
+\def\thesubsection{\thesection.\arabic{subsection}}
+\def\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+\fi
+
+
+%%重定义章节标题格式
+\def\chaptername{第\thechapter章}
+\def\sectionname{\thesection}
+\def\subsectionname{\thesubsection}
+\def\subsubsectionname{\thesubsubsection}
+
+
+%%用titlesec宏包定义章节标题格式
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\vspace{-2cm}\chapterfmt}{\chaptername}{1em}{}
+\titleformat{\section}[hang]{\sectionfmt}{\sectionname}{1em}{}
+\titleformat{\subsection}[hang]{\subsectionfmt}{\subsectionname}{1em}{}
+\titleformat{\subsubsection}[hang]{\subsubsectionfmt}{\subsubsectionname}{1em}{}
+
+%%用titletoc宏包定义目录格式
+\usepackage{titletoc}
+\def\mydotfill{\hspace{.5em}\titlerule*[10pt]{$\cdot$}}
+\titlecontents{chapter}[0pt]{\tocchapterfmt} {\thecontentslabel\quad}{} {\mydotfill\contentspage}
+\titlecontents{section}[2em]{\tocsectionfmt} {\thecontentslabel\quad}{} {\mydotfill\contentspage}
+\titlecontents{subsection}[4em]{\tocsubsectionfmt} {\thecontentslabel\quad}{} {\mydotfill\contentspage}
+\titlecontents{subsubsection}[4em]{\tocsubsubsectionfmt} {\thecontentslabel\quad}{} {\mydotfill\contentspage}
+
+
+
+%%设置章节标题格式
+\def\chapterfmt{\centering\heiti\sanhaozi}
+\def\sectionfmt{\heiti\sihaozi}
+\def\subsectionfmt{\heiti\xiaosizi}
+\def\subsubsectionfmt{\heiti\xiaosizi}
+
+%%设置目录里章节标题格式
+\def\tocchapterfmt{\songti\xiaosizi}
+\def\tocsectionfmt{\songti\xiaosizi}
+\def\tocsubsectionfmt{\songti\xiaosizi}
+\def\tocsubsubsectionfmt{\songti\xiaosizi}
+
+
+%%用tocbibind宏包自动将参考文献、索引、表格目录和图形目录等标题及其所在页码加入目录
+\usepackage{tocbibind}
+
+%%如果用ctexbook，设置相应章节标题格式
+\ifx\CTEXsetup\undefined%
+\else%
+\CTEXsetup[name={第,章},number={\arabic{chapter}},format+={\chapterfmt}]{chapter}
+% \CTEXsetup[name={},number={},format={\sectionfmt}]{section}
+% \CTEXsetup[name={},number={},format={\subsectionfmt}]{subsection}
+% \CTEXsetup[name={},number={},format={\subsubsectionfmt}]{subsubsection}
+\fi
+
+
+
+
+%%其它设置
+%\setlength{\baselineskip}{22pt plus2pt minus1pt}
+\setlength{\parindent}{12pt}
+\setlength{\parskip}{1pt plus1pt minus2pt}
+% \linespread{1.6}
+\renewcommand{\baselinestretch}{1.50}
+
+\renewcommand\arraystretch{1.00}
+
+%%给pdf文件加入超链接
+\usepackage{hyperref}
+\hypersetup{
+   CJKbookmarks=true,
+   pdfstartview=FitH,
+      bookmarks=true,
+  bookmarksopen=true,
+linkbordercolor={1 1 1},
+     colorlinks=true,
+      filecolor=blue,
+      linkcolor=black,
+      citecolor=blue,
+    anchorcolor=green,
+       urlcolor=blue
+}
+
+
+
+\makeatother

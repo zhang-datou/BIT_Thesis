@@ -9,14 +9,6 @@ run_thesis.bat用于解决pdflatex编译时产生的中文目录乱码问题。
 `pdflatex Thesis.tex`  
 用的时候只需将Thesis换成你的文件名即可。  
 
-
---------
-
-
-2016.11.17更新
-
-
---------
-
+###2016.11.17更新  
 
 无需修改run_thesis.bat文件中的Thesis。编译完后直接运行run_thesis.bat文件即可。

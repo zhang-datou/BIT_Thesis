@@ -15,7 +15,7 @@ run_thesis.bat用于解决pdflatex编译时产生的中文目录乱码问题。
 
 ###2016.12.3更新  
 1、页码问题  
-此前非正文部分页码字体过大，因此对其进行了修改。改动的是Thesis.tex和setup.tex文件。
+此前非正文部分页码字体过大，因此对其进行了修改。改动的是Thesis.tex和setup.tex文件。  
 2、参考文献  
 之前的版本参考文献之间间距过大，在chap-bibs.tex文件的\begin{thebibliography}{148}
 下方加入:  

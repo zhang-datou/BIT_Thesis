@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.10)  16 NOV 2016 11:01
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.10)  3 DEC 2016 13:39
 entering extended mode
 **Thesis.tex
 
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\Thesis.tex
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\Thesi
+s.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for loaded.
 (C:\Software\Latex\CTEX\CTeX\tex\latex\ctex\ctexbook.cls
@@ -266,8 +266,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 3.
 (C:\Software\Latex\CTEX\CTeX\tex\latex\ctex\cfg\ctexcap.cfg
 (C:\Software\Latex\CTEX\CTeX\tex\latex\ctex\cfg\ctexcap-gbk.cfg))
 (C:\Software\Latex\CTEX\CTeX\tex\latex\ctex\cfg\ctex.cfg)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\setup.tex (C:\Software\Latex\CTEX\MiKTeX\tex\latex\oberdiek\pdflscape.sty
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\setup
+.tex (C:\Software\Latex\CTEX\MiKTeX\tex\latex\oberdiek\pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
 
 (C:\Software\Latex\CTEX\MiKTeX\tex\latex\graphics\lscape.sty
@@ -309,8 +309,8 @@ Package: natbib 2009/11/07 8.31a (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count109
 )
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\hypernat.sty) (C:\Software\Latex\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\hyper
+nat.sty) (C:\Software\Latex\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
 (C:\Software\Latex\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
@@ -583,24 +583,24 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 241.
 )
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\Thesis.aux
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter1.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter2.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter3.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter4.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter5.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-bibs.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-pubs.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-ack.aux))
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\Thesi
+s.aux
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter1.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter2.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter3.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter4.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter5.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-bibs.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-pubs.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-ack.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
@@ -683,10 +683,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 \AtBeginShipoutBox=\box38
 Package hyperref Info: Link coloring ON on input line 8.
-
-(C:\Software\Latex\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
+ (C:\Software\Latex\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
-
 (C:\Software\Latex\CTEX\MiKTeX\tex\latex\oberdiek\refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
@@ -700,10 +698,10 @@ LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\Thesis.out)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\Thesis.out)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\Thesi
+s.out)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\Thesi
+s.out)
 \@outlinefile=\write3
 LaTeX Info: Redefining \Ref on input line 8.
  (C:\Software\Latex\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
@@ -766,11 +764,10 @@ File: extended.enc 2008/12/29 4.8.2
 (C:\Software\Latex\CTEX\MiKTeX\tex\latex\cjk\extended.chr
 File: extended.chr 2008/12/29 4.8.2
 )
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-cover.tex
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-cover.tex
 LaTeX Font Info:    Try loading font information for C19+rm on input line 7.
-
-(C:\Software\Latex\CTEX\CTeX\tex\latex\ctex\fd\c19rm.fd
+ (C:\Software\Latex\CTEX\CTeX\tex\latex\ctex\fd\c19rm.fd
 File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
 )
 Underfull \hbox (badness 10000) in paragraph at lines 6--13
@@ -842,8 +839,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--43
  []
 
 )
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-name.tex [2]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-name.tex [2]
 LaTeX Font Info:    Calculating math sizes for size <16> on input line 11.
 
 
@@ -851,25 +848,17 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <16> not available
 (Font)              size <17.28> substituted on input line 11.
 
 )
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-shengming.tex [3]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-shengming.tex [3]
 Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
  family 'def' instead. on input line 9.
 )
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-abstract.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 1.
-
-[4]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-abstract.tex [4]
 LaTeX Font Info:    Try loading font information for C19+zhsong on input line 1
 6.
- (C:\Software\Latex\CTEX\CTeX\tex\latex\zhmetrics\c19zhsong.fd
+
+(C:\Software\Latex\CTEX\CTeX\tex\latex\zhmetrics\c19zhsong.fd
 File: c19zhsong.fd 2009/09/23 4.8.2
 ) [1
 
@@ -879,8 +868,8 @@ File: c19zhsong.fd 2009/09/23 4.8.2
 [3] [4
 
 ]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\Thesis.toc
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\Thesi
+s.toc
 Overfull \hbox (237.66707pt too wide) in paragraph at lines 9--9
 []|[][][] 
  []
@@ -891,224 +880,89 @@ Overfull \hbox (237.66707pt too wide) in paragraph at lines 9--9
 
 
 ]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter1.tex
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter1.tex
 第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 1\hspace {0.25em plus
  0.125em minus 0.08em}\ignorespaces \ignorespaces 章
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 42.
-
-[1
+) [1
 
 
 ]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter2.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 2.
-
-[2
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter2.tex [2
 
 
 
 ]
 第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 2\hspace {0.25em plus
  0.125em minus 0.08em}\ignorespaces \ignorespaces 章
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 43.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 43.
-
-[3]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter3.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 2.
-
-[4
+) [3]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter3.tex [4
 
 
 
 ]
 第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 3\hspace {0.25em plus
  0.125em minus 0.08em}\ignorespaces \ignorespaces 章
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 44.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 44.
-
-[5]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter4.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 1.
-
-[6
+) [5]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter4.tex [6
 
 
 
 ]
 第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 4\hspace {0.25em plus
  0.125em minus 0.08em}\ignorespaces \ignorespaces 章
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 45.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 45.
-
-[7]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter5.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 1.
-
-[8
+) [7]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter5.tex [8
 
 
 
 ]
 第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 5\hspace {0.25em plus
  0.125em minus 0.08em}\ignorespaces \ignorespaces 章
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 46.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 46.
-
-[9]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-bibs.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 7.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 7.
-
-[10
+) [9]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-bibs.tex [10
 
 
 
-])
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 47.
-
-[11]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-pubs.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 2.
-
-[12
+]) [11]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-pubs.tex [12
 
 
 
-])
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 48.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 48.
-
-[13]
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-ack.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 2.
-
-[14
+]) [13]
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-ack.tex [14
 
 
 
-])
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\selfontsize' on input line 49.
-
-[15]
+]) [15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\Thesis.aux
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter1.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter2.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter3.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter4.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chapter5.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-bibs.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-pubs.aux)
-(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT硕士LATEX论文模板_20161111
-5\chapter/chap-ack.aux))
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\Thesi
+s.aux
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter1.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter2.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter3.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter4.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chapter5.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-bibs.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-pubs.aux)
+(E:\同步\同步\研究生毕设\研究生毕业论文\LATEX模板\BIT_Thesis\Thesis_LATEX\chapt
+er/chap-ack.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 78D3087CC643CC92CDD3C5CFAAD6CE98;474.
@@ -1119,13 +973,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 13398 strings out of 495362
- 208997 string characters out of 3183183
- 287728 words of memory out of 3000000
- 16080 multiletter control sequences out of 15000+200000
+ 13397 strings out of 495362
+ 208416 string characters out of 3183183
+ 287729 words of memory out of 3000000
+ 16079 multiletter control sequences out of 15000+200000
  60351 words of font info for 214 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,11n,46p,502b,951s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,11n,46p,502b,949s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/s
 imsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS
 /Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:
@@ -1154,7 +1008,7 @@ x/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Software/Latex/CTEX
 /fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Software/Latex/CTEX/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmr9.pfb><C:/Software/Latex/CTEX/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on Thesis.pdf (25 pages, 383460 bytes).
+Output written on Thesis.pdf (25 pages, 384084 bytes).
 PDF statistics:
  449 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
